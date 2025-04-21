@@ -51,7 +51,6 @@ const TriangleButtons: React.FC = () => {
         <div className="flex flex-col items-center">
           <div className="w-full mb-3 rounded-lg overflow-hidden shadow-lg">
             <img 
-              src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg" 
               alt="Innovation features" 
               className="w-full h-28 object-cover"
             />
@@ -67,11 +66,6 @@ const TriangleButtons: React.FC = () => {
         
         <div className="flex flex-col items-center">
           <div className="w-full mb-3 rounded-lg overflow-hidden shadow-lg">
-            <img 
-              src="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg" 
-              alt="Security features" 
-              className="w-full h-28 object-cover"
-            />
           </div>
           <a 
             href={getRandomLink(securityLinks)}
