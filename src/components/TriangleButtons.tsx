@@ -39,7 +39,7 @@ const TriangleButtons: React.FC = () => {
         </div>
         <a 
           href={getRandomLink(topLinks)}
-          className={`${buttonClasses} bg-blue-600 active:bg-blue-700 focus:ring-blue-500`}
+          className={`${buttonClasses} bg-orange-600 active:bg-orange-700 focus:ring-orange-500`}
         >
           <span className="mr-2">QUIERO JUGAR EN AZAR</span>
           <ArrowRight size={18} />
