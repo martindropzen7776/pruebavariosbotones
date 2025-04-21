@@ -32,7 +32,7 @@ const TriangleButtons: React.FC = () => {
       <div className="flex flex-col items-center mb-8 animate-fade-slide-down" style={{ animationDelay: '0.2s' }}>
         <div className="w-full mb-3 rounded-lg overflow-hidden shadow-lg">
           <img 
-            src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" 
+            src="https://azarlatinopy2.netlify.app/promo.jpg" 
             alt="Team collaboration" 
             className="w-full h-36 object-cover"
           />
@@ -41,7 +41,7 @@ const TriangleButtons: React.FC = () => {
           href={getRandomLink(topLinks)}
           className={`${buttonClasses} bg-blue-600 active:bg-blue-700 focus:ring-blue-500`}
         >
-          <span className="mr-2">Get Started</span>
+          <span className="mr-2">QUIERO JUGAR EN AZAR</span>
           <ArrowRight size={18} />
         </a>
       </div>
@@ -60,7 +60,7 @@ const TriangleButtons: React.FC = () => {
             href={getRandomLink(featureLinks)}
             className={`${buttonClasses} bg-purple-600 active:bg-purple-700 focus:ring-purple-500`}
           >
-            <span className="mr-2">Features</span>
+            <span className="mr-2">QUIERO JUGAR EN ZEUS</span>
             <Zap size={18} />
           </a>
         </div>
@@ -77,7 +77,7 @@ const TriangleButtons: React.FC = () => {
             href={getRandomLink(securityLinks)}
             className={`${buttonClasses} bg-teal-600 active:bg-teal-700 focus:ring-teal-500`}
           >
-            <span className="mr-2">Security</span>
+            <span className="mr-2">QUIERO JUGAR EN GANAMOS</span>
             <Shield size={18} />
           </a>
         </div>
